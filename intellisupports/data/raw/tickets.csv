@@ -1,0 +1,8 @@
+text,category
+"My internet banking is not working since morning",technical_issue
+"I was charged twice for my credit card bill",billing
+"I forgot my login password and cannot access my account",account_access
+"The mobile app crashes whenever I try to pay",technical_issue
+"Need refund for a failed transaction",billing
+"How do I update my contact information?",account_access
+"My statement shows an incorrect amount",billing
