@@ -24,7 +24,6 @@ This project includes:
 ## 📁 Project Structure
 
 intellisupport-ml-system/
-│
 ├── intellisupports/              # Main project package
 │   ├── api/
 │   │   └── app.py                # FastAPI application
@@ -42,8 +41,8 @@ intellisupport-ml-system/
 │   │   ├── raw/
 │   │   └── processed/
 │   │
-│   └── requirements.txt          # Project dependencies
-│
+│   ├── requirements.txt          # Project dependencies
+│   
 └── README.md
 
 
