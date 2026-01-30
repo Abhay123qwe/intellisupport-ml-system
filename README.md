@@ -23,6 +23,7 @@ This project includes:
 
 ## 📁 Project Structure
 intellisupport-ml-system/
+
 ├── intellisupports/
 
 │   ├── api/                  # FastAPI application
