@@ -22,33 +22,30 @@ This project includes:
 - 📦 Pre-built artifacts (model weights, embeddings).
 
 ## 📁 Project Structure
+
 intellisupport-ml-system/
-
-├── intellisupports/
-│   ├── api/                  # FastAPI application
-│   │   └── app.py
-
-│   ├── artifacts/            # Pre-trained models & embeddings
-
-│   ├── data/                 # Raw datasets (train/test)
-
-│   ├── src/                  # Core ML code
-
-│   │    ├── dataset.py
-
-│   │    ├── embeddings.py
-
-│   │    ├── train.py
-
-│   │    ├── inference.py
-
-│   │    └── retrieve.py        # Raw datasets (train/test)
-
-│   ├── requirement.txt
-
-│ 
-
+│
+├── intellisupports/              # Main project package
+│   ├── api/
+│   │   └── app.py                # FastAPI application
+│   │
+│   ├── src/                      # Core ML logic
+│   │   ├── dataset.py
+│   │   ├── embeddings.py
+│   │   ├── train.py
+│   │   ├── inference.py
+│   │   └── retrieve.py
+│   │
+│   ├── artifacts/                # Trained models & FAISS index
+│   │
+│   ├── data/                     # Dataset folder
+│   │   ├── raw/
+│   │   └── processed/
+│   │
+│   └── requirements.txt          # Project dependencies
+│
 └── README.md
+
 
 ## 🧠 How It Works
 ### 1. Model Training
