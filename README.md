@@ -25,9 +25,7 @@ This project includes:
 intellisupport-ml-system/
 
 ├── intellisupports/
-
 │   ├── api/                  # FastAPI application
-
 │   │   └── app.py
 
 │   ├── artifacts/            # Pre-trained models & embeddings
