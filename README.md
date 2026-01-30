@@ -23,6 +23,8 @@ This project includes:
 
 ## 📁 Project Structure
 
+```
+
 intellisupport-ml-system/
 ├── intellisupports/              # Main project package
 │   ├── api/
@@ -44,7 +46,7 @@ intellisupport-ml-system/
 │   ├── requirements.txt          # Project dependencies
 │   
 └── README.md
-
+```
 
 ## 🧠 How It Works
 ### 1. Model Training
@@ -96,35 +98,27 @@ intellisupport-ml-system/
 | `/predict` | POST   | Predict ticket + retrieve similar |
 
 #### Prediction Request
+```
 {
-
   "text": "<ticket text>",
-  
   "top_k": 5
-  
 }
+```
 #### Prediction Response
+```
 {
-
   "predicted_category": "<label>",
-  
   "confidence": 0.00,
-  
   "similar_tickets": [
   
     {
-    
       "category": "<label>",
-      
       "score": 0.00,
-      
-      "original_index": 0
-      
+      "original_index": 0 
     }
-    
   ]
-  
 }
+```
 
 ## 🧩 Dependencies
 
