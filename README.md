@@ -24,18 +24,31 @@ This project includes:
 ## 📁 Project Structure
 intellisupport-ml-system/
 ├── intellisupports/
+
 │   ├── api/                  # FastAPI application
+
 │   │   └── app.py
+
 │   ├── artifacts/            # Pre-trained models & embeddings
+
 │   ├── data/                 # Raw datasets (train/test)
+
 │   ├── src/                  # Core ML code
+
 │   │    ├── dataset.py
+
 │   │    ├── embeddings.py
+
 │   │    ├── train.py
+
 │   │    ├── inference.py
-│   │    └── retrieve.py                    # Raw datasets (train/test)
+
+│   │    └── retrieve.py        # Raw datasets (train/test)
+
 │   ├── requirement.txt
+
 │ 
+
 └── README.md
 
 ## 🧠 How It Works
@@ -89,20 +102,33 @@ intellisupport-ml-system/
 
 #### Prediction Request
 {
+
   "text": "<ticket text>",
+  
   "top_k": 5
+  
 }
 #### Prediction Response
 {
+
   "predicted_category": "<label>",
+  
   "confidence": 0.00,
+  
   "similar_tickets": [
+  
     {
+    
       "category": "<label>",
+      
       "score": 0.00,
+      
       "original_index": 0
+      
     }
+    
   ]
+  
 }
 
 ## 🧩 Dependencies
